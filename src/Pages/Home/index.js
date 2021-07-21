@@ -31,6 +31,7 @@ function App(props) {
 
   return (
     <S.HomeContainer>
+      <S.Display>{usuario}</S.Display>
       <S.Content>
         <S.Input
           className="usuarioInput"

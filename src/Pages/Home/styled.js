@@ -6,15 +6,24 @@ export const HomeContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: grey;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
 `
 
 export const Content = styled.div`
-  width: 100vw;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
 `
-
+export const Display = styled.h1`
+  box-shadow: 5px 5px 1px black;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+`
 export const Input = styled.input`
   border: 1px solid #ddd;
   height: 1.5rem;
