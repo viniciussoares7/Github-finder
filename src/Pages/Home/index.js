@@ -24,7 +24,7 @@ function App(props) {
         setErro(false)
         history.push('/repositories')
       })
-      .catch(err => {
+      .catch(erro => {
         setErro(true)
       })
   }
