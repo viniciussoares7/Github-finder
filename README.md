@@ -1,4 +1,4 @@
-##Github finder
+<h1 align="center">Github finder</h1>
 
 Funcionalidade:
 
